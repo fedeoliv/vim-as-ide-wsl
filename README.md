@@ -28,6 +28,20 @@ The *nocompatble* option turns off the *Compatible mode* (e.g. compatibility wit
 
 > Assuming this file will be a system-wide vimrc, setting the *nocompatible* option is required. It needs to be set before all other options.
 
+## Install Vundle
+
+If you already have a ~/.vim folder, move it out of the way:
+
+```sh
+mv ~/.vim ~/.vim.old
+```
+
+Then install Vundle:
+
+```sh
+git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
+```
+
 ## Sharing clipboard between Windows and Linux
 
 As we are targeting the Vim installation on WSL2, an important step for better productivity is making sure that clipboards can be shared between Windows and Linux. In other words, we'll create a `yank` support for WSL2.
