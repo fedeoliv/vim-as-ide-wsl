@@ -10,6 +10,7 @@ This repository contains information about how to install and configure Vim on W
 
 * [Install Vim](./docs/install-vim.md)
 * [Create the vimrc file](./docs/create-vimrc.md)
+* [Install Vundle](./docs/install-vundle.md)
 * [Share clipboard between Windows and Linux](./docs/share-clipboard-windows-linux.md)
 
 ## Preparing Vim as an IDE
