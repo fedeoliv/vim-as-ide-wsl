@@ -18,13 +18,13 @@ cd ${WORKDIR}/vim
 ./configure --with-features=huge \
             --enable-multibyte \
             --enable-python3interp=yes \
+            --with-python3-config-dir=$(python3-config --configdir) \
             --enable-gui \
             --with-x \
             --enable-cscope \
             --prefix=/usr/local
 
 make VIMRUNTIMEDIR=/usr/local/share/vim/vim82
-sudo make distclean  # if you build Vim before
 sudo make install
 popd
 
