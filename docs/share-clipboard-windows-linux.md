@@ -1,6 +1,6 @@
 # Share clipboard between Windows and Linux
 
-As we are targeting the Vim installation on WSL2, an important step for better productivity is making sure that clipboards can be shared between Windows and Linux. In other words, we'll create a `yank` support for WSL2.
+As we are targeting the Vim installation on WSL2, an important step for better productivity is making sure that clipboards can be shared between Windows and Linux. To do that, we'll create a Vim script that invokes the [clip](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/clip) service on Windows to redirect the output of the `yank` task to Windows clipboard.
 
 Add the following block in your `.vimrc` file:
 
