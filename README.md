@@ -5,14 +5,15 @@ This repository contains information about how to install and configure Vim on W
 ## Prerequisites
 
 * Windows 10 with Ubuntu 18.01+ installed via WSL2
+* Vim 8.2+ `huge` build + clipboard compiled with Python 3.6+ on Ubuntu. If you don't have it installed or are not sure if these features are enabled, check out the [Installation](./docs/install-vim.md) guideline.
 
-## Getting Started
+## Configuring Vim
 
-* [Install Vim](./docs/install-vim.md)
 * [Create the vimrc file](./docs/create-vimrc.md)
 * [Install Vundle](./docs/install-vundle.md)
 * [Share clipboard between Windows and Linux](./docs/share-clipboard-windows-linux.md)
 
-## Preparing Vim as an IDE
+## Tips to make Vim looks good
 
+* [Adding a VSCode Dark+ color scheme](./docs/vscode-dark-color-scheme.md)
 * [Write and Preview Markdown files](./docs/markdown.md)
