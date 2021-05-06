@@ -17,3 +17,4 @@ This repository contains information about how to install and configure Vim on W
 
 * [Adding a VSCode Dark+ color scheme](./docs/vscode-dark-color-scheme.md)
 * [Write and Preview Markdown files](./docs/markdown.md)
+* [Add a multi-language graphical debugger](./docs/multi-language-graphical-debugger.md)
