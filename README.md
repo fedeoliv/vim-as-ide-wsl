@@ -14,7 +14,7 @@ This repository contains information about how to install and configure Vim on W
 * [Share clipboard between Windows and Linux](./docs/share-clipboard-windows-linux.md)
 * [Add the VSCode Dark+ color scheme](./docs/vscode-dark-color-scheme.md)
 
-### Language-specific configurations
+## Language-specific configurations
 
 * [Add a multi-language graphical debugger](./docs/multi-language-graphical-debugger.md)
 * [Write and Preview Markdown files](./docs/markdown.md)
